@@ -1,0 +1,38 @@
+*{margin: 0;}
+
+.navlinks {
+    text-decoration: none;
+    padding-top:1vw;
+    padding-bottom: 1vw;}
+
+#sitename {padding-top: 1vw;
+           padding-bottom: 1vw;}
+
+@media screen and (max-width:720px){
+    background-color: bisque;
+}
+
+@media screen and (max-width: 640px){
+    background-color: black;
+}
+
+@media screen and (max-width: 600px){
+    background-color: blue;
+}
+
+@media screen and (max-width: 480px){
+
+}
+nav{ 
+    display: flex;
+    justify-content: space-between;
+    width: 99vw;
+    background-color: bisque;
+
+}
+section {
+    display: flex;
+    border: 1px solid black; 
+    height: 85vh;
+
+}
